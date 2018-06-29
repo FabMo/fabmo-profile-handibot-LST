@@ -112,6 +112,6 @@ check_input:
 	RETURN
 
 check_input_fail:
-    END "Input switch is already tripped. Cannot zero the tool. Move Off Switch and Retry."
+    FAIL "Input switch is already tripped. Cannot zero the tool. Move Off Switch and Retry."
 
 END
